@@ -1,0 +1,161 @@
+.top-container {
+    width: 50%;
+    position: relative;
+    margin: 5em auto; 
+    text-align: center;
+    background-color: #ed9f66;
+    border: groove 1em;
+    border-color: #a55233;
+    padding-bottom: 5%;
+
+    }
+
+.title {
+    position: relative;
+    top: 1em;
+    font-size: 2em;
+}
+
+.title-description {
+    position: relative;
+    top: 5em;
+}
+
+hr {
+    border: none;
+
+}
+
+.proposte {
+    color: rgb(180, 127, 10);
+    font-weight: bold;
+    margin-top: 3em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.middle-container {
+    display: flex;
+    background-size: contain;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.coffee-container {
+    position: relative;
+    
+
+}
+.food-container {
+    position: relative;
+}
+
+.coffee-img1 {
+    border: solid;
+    border-radius: 250px;
+    margin: auto;
+    
+}
+.food-img1  {
+    border: solid;
+    border-radius: 250px;
+}
+
+.karaoke-img1 {
+    border: solid;
+    border-radius: 250px;
+}
+
+.coffee-description {
+    position: relative;
+    width: 60%;
+    left: 10rem;
+   
+}
+
+.food-description {
+    position: relative;
+    width: 60%;
+    left: 10rem;
+    
+}
+
+.karaoke-description {
+    position: relative;
+    width: 60%;
+    left: 10rem;
+   
+}
+
+.bottom-container {
+
+    margin-top: 20em;
+}
+
+.reservation-description {
+    font-size: 150%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.follow {
+    font-size: 18px;
+    text-align: center;
+}
+
+.links {
+    word-spacing: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.footer-link {
+    font-size: 120%;
+    border: groove;
+    border: 5px;
+    border-radius: 20px;
+    color: #0066cc;
+    text-decoration: none;
+
+}
+
+
+body {
+    margin: 0;
+    
+}
+
+.btn{
+font-family: Lato;
+font-weight: 500;
+font-size: 18px;
+color: #fff;
+background: linear-gradient(180deg, #e76f51 47%, #f4a261 100%);
+padding: 10px 31px;
+border: none;
+box-shadow: none;
+border-radius: 50px;
+transition : 838ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+margin: 5em auto;
+
+}
+
+.btn:hover{
+transition : 838ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(180deg, #e76f51 47%, #f4a261 100%);
+color: #91154f;
+border: solid 2px #0066cc;
+
+}
+
+
